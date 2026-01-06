@@ -33,6 +33,18 @@
     background-color: #FD6E0A;
 }
 
+.t-btn{
+    background-color: transparent;
+    padding: 18px 36px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
 .btn{
     padding: 18px 36px;
     border: none;
@@ -50,7 +62,9 @@
 /** main css **/
 
 .header{
-    background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 38px 23px , bottom right;
 }
 
 .nav-area{
@@ -77,4 +91,46 @@
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
+    color: #474747;
+}
+
+
+
+.hero{
+    margin: 161px 38px 0 230px;
+    max-width: 1332px;
+}
+
+.hero-info h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.hero-info h1{
+    font-size: 85px;
+    font-weight:bold;
+    color: #181818;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.hero-info p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-btn button{
+    margin-right: 30px;
+}
+
+
+
+
+.hero-image img{
+    width: 584px;
+    vertical-align: middle;
 }
