@@ -264,3 +264,46 @@
 .resume-download {
     margin-top: 50px;
 }
+
+
+
+
+
+.footer{
+    background: #FFF8F3;
+    margin-top: 110px; 
+}
+
+.footer .contact{
+    gap: 117px;
+    padding: 130px 0;
+}
+
+.footer .contact .f-content h3{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.contact .f-content p{
+    max-width: 565px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.f-icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+.contact-form input[type="text"],
+.contact-form textarea{
+    width: 100%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
