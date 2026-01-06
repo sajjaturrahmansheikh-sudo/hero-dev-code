@@ -1,4 +1,80 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/** shared css**/
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+
+
+.color-orange{
+    background-color: #FD6E0A;
+}
+
+.btn{
+    padding: 18px 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+/** main css **/
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.nav-area{
+    padding-top: 50px;
+}
+
+
+.logo h2{
+    text-transform: capitalize;
+    font-weight:900;
+    font-size: 45px;
+}
+.logo span{
+    color: #FD6E0A;
+}
+
+
+.main-menu ul{
+    gap: 68px;
+    list-style: none;
+}
+
+.main-menu a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
 }
