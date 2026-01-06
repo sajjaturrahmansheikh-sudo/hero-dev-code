@@ -179,3 +179,38 @@
     color: #474747;
     font-weight: bold;
 }
+
+
+
+
+
+
+.skills{
+    margin-top: 130px;
+}
+
+.skill-info p{
+    max-width: 827px;
+    margin: auto;
+}
+
+.skill-blocks{
+    max-width: 267px;
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #00000024;
+}
+
+.skill-blocks img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-block-t h4{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skill-block-t p{
+    color: #757575;
+    line-height: 28px;
+}
