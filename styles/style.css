@@ -214,3 +214,53 @@
     color: #757575;
     line-height: 28px;
 }
+
+
+
+.summery{
+    margin-top: 130px;
+}
+
+.summery-details{
+    margin-top: 113px;
+    gap: 28px;
+}
+
+.e-background{
+    margin-bottom: 30px;
+}
+.e-background hr{
+    color: #d1d1d1;
+}
+
+
+.education-title h4{
+    font-size: 20px;
+    color: #474747;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+
+.e-info-title h5{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.e-info-title h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 57px;
+}
+
+.e-background .e-des p{
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-download {
+    margin-top: 50px;
+}
